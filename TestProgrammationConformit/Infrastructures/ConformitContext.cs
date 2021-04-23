@@ -8,8 +8,12 @@ namespace TestProgrammationConformit.Infrastructures
 {
     public class ConformitContext : DbContext
     {
-        public ConformitContext(DbContextOptions options) : base(options)
+        public ConformitContext(DbContextOptions<ConformitContext> options) : base(options)
         {
         }
+
+        public DbSet<Evenement> Evenement { get; set; }
+        public DbSet<Commentaire> Commentaire{ get; set; }
+
     }
 }
