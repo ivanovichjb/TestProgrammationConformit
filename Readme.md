@@ -35,7 +35,7 @@ dotnet run --project ./TestProgrammationConformit//TestProgrammationConformit.cs
 ```
 Restaurez les dépendances et les outils du projet dans le répertoire actuel pour afficher uniquement la sortie minimale, puis exécutez le projet:
 ```sh
-dotnet run --project ./TestProgrammationConformit//TestProgrammationConformit.csproj
+dotnet run --verbosity m
 ```
 
 > Note: Vérifiez le déploiement en accédant à l'adresse de votre serveur dans
