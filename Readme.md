@@ -5,7 +5,7 @@ Cette application ouvre des points de terminaison REST pour permettre la créati
 ivanovichjb/TestProgrammationConformit
 [![N|GitHub](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5FtWop0sp2E8gDQCzBHRoESzIvLJHLo5VF9RlhHk&usqp=CAU)](https://github.com/ivanovichjb/TestProgrammationConformit)(Click)
 
-> Il existe deux contrôleurs qui implémentent les opérations de base `CRUD de manière asynchrone`. Il y a une relation un à un par commentaire d'événement créé. Utilisation d'Entity Framework et Linq pour l'intégration de l'option de requête. Le projet a implémenté la norme DTO pour le transfert de données et la gestion des réponses http des exceptions. Las migraciones de bases Postgres de datos se realizaron con Entity Framework Core y esta disponible las creacion de las entidades
+> Il existe deux contrôleurs qui implémentent les opérations de base `CRUD de manière asynchrone`. Il y a une relation un à un par commentaire d'événement créé. Utilisation d'Entity Framework et Linq pour l'intégration de l'option de requête. Le projet a implémenté la norme DTO pour le transfert de données et la gestion des réponses http des exceptions.
 
 
 ## Controller Evenement
